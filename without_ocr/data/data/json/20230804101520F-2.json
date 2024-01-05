@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230804101520F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Two Lakh Only"
+            },
+            {
+                "amt_in_figures": "200000"
+            },
+            {
+                "payee_name": "Komal Karki"
+            },
+            {
+                "bank_name": "Lumbini Bikas Bank Ltd."
+            },
+            {
+                "cheque_date": "20/03/80"
+            },
+            {
+                "micra" : "0003511639'5401'"
+            },
+            {
+                "acc_info" : "05211020074307000001 Nitesh Adhikari Normal Saving NPR K 0003511639"
+            }
+        ]
+    }
+}

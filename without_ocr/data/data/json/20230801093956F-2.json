@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230801093956F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "One Lakh Rupees Only"
+            },
+            {
+                "amt_in_figures": "100000"
+            },
+            {
+                "payee_name": "Nawa Durga Paper Tray"
+            },
+            {
+                "bank_name": "Nepal Investment Bank LTD."
+            },
+            {
+                "cheque_date": "15/04/80"
+            },
+            {
+                "micra" : "3021403486'0501'"
+            },
+            {
+                "acc_info" : "Dumkibas Poultry Farm PVT LTD Current Account NPR 05701030251204"
+            }
+        ]
+    }
+}

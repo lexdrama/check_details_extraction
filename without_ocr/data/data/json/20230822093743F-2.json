@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230822093743F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Rupees Ninety One Thousand Five Hundred Ten Only"
+            },
+            {
+                "amt_in_figures": "91510.00"
+            },
+            {
+                "payee_name": "Ambikeshwori Auto Mart"
+            },
+            {
+                "bank_name": "Siddhartha Bank Kanipat"
+            },
+            {
+                "cheque_date": "03/05/80"
+            },
+            {
+                "micra" : "0038595026'1801'0060'00000000003315001179'"
+            },
+            {
+                "acc_info" : "03315001179"
+            }
+        ]
+    }
+}

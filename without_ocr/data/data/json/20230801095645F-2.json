@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230801095645F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Ninety Nine Thousand Four Hundred and Ninety Five Only"
+            },
+            {
+                "amt_in_figures": "99495"
+            },
+            {
+                "payee_name": "Kathmandu Metropolitan City Warn No. 20"
+            },
+            {
+                "bank_name": "Nepal Investment Bank LTD."
+            },
+            {
+                "cheque_date": "15/04/80"
+            },
+            {
+                "micra" : "3020842424'0501'"
+            },
+            {
+                "acc_info" : "Marrhity Banquet And Event Management Current Account-NPR 00701020257053"
+            }
+        ]
+    }
+}

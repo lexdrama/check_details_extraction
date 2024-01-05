@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230803115722F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Sixty Eight Thousand And Five Hundred Only"
+            },
+            {
+                "amt_in_figures": "68500"
+            },
+            {
+                "payee_name": "Pioneer Chemicals"
+            },
+            {
+                "bank_name": "Agricultural Development Bank Ltd."
+            },
+            {
+                "cheque_date": "18/04/80"
+            },
+            {
+                "micra" : "0028146143'0301'"
+            },
+            {
+                "acc_info" : "02-103-00165866-01-7 Pioneer Chemicals Current Account (NPR)"
+            }
+        ]
+    }
+}

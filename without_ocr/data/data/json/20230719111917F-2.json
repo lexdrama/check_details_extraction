@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230719111917F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Seven Lakh Fifty Thousand"
+            },
+            {
+                "amt_in_figures": "750000"
+            },
+            {
+                "payee_name": "Lifecare Distributions PVT. LTD."
+            },
+            {
+                "bank_name": "Kumari Bank Limited"
+            },
+            {
+                "cheque_date": "12/07/23"
+            },
+            {
+                "micra" :"0015902159'1601"
+            },
+            {
+                "acc_info" : "0130010411700001 NPR Jitu Agarwal Kumari Dhanabriudhi Bachat Khata"
+            }
+        ]
+    }
+}

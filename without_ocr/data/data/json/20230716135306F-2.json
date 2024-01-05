@@ -1,0 +1,28 @@
+{
+    "file_name": "20230716135306F-2.JPG",  
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Ten Thousand Nine Hundred"
+            },
+            {
+                "amt_in_figures": "10900"
+            },
+            {
+                "payee_name": "Om Artisan"
+            },
+            {
+                "bank_name": "Century Bank"
+            },
+            {
+                "cheque_date": "21/06/23"
+            },
+            {
+                "micra" : "0012789241'31001"
+            },
+            {
+                "acc_info" : "0010000005CA Crystal Lights Current Depostit NPR"
+            }
+        ]
+    }
+}

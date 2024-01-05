@@ -1,0 +1,28 @@
+{
+    "file_name":  "20230802160456F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "One Lakh Eighty Eight Thousand Only"
+            },
+            {
+                "amt_in_figures": "188000"
+            },
+            {
+                "payee_name": "Tulasi Khadka"
+            },
+            {
+                "bank_name": "Global IME Bank"
+            },
+            {
+                "cheque_date": "01/08/23"
+            },
+            {
+                "micra" : "0064846114'1901'"
+            },
+            {
+                "acc_info" : "03901010008839 NECO Insaurance Limited NPR"
+            }
+        ]
+    }
+}

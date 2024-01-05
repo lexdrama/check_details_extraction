@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230803095712F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Twelve Lakh Fifty One Thousand Six Hundred Only"
+            },
+            {
+                "amt_in_figures": "1251600"
+            },
+            {
+                "payee_name": "Asian Thai Food pvt ltd."
+            },
+            {
+                "bank_name": "Sanima Bank"
+            },
+            {
+                "cheque_date": "17/04/80"
+            },
+            {
+                "micra" : "0019688203'4501'"
+            },
+            {
+                "acc_info" : "012016440000051 Samikshya Stores Cash Credit SBGL 00019688203"
+            }
+        ]
+    }
+}

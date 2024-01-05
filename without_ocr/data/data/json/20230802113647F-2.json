@@ -1,0 +1,28 @@
+{
+    "file_name" :"20230802113647F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Two Lakhs Only"
+            },
+            {
+                "amt_in_figures": "200000"
+            },
+            {
+                "payee_name": "Mausam Gupta"
+            },
+            {
+                "bank_name": "Sanima Bank"
+            },
+            {
+                "cheque_date": "17/04/80"
+            },
+            {
+                "micra" : "001678054?'4501'"
+            },
+            {
+                "acc_info" : "007011040000213 Nitish Kandu Sanima Sarai Savings NPR 00015/8054 /"
+            }
+        ]
+    }
+}
