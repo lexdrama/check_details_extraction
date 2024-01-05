@@ -1,0 +1,28 @@
+{
+    "file_name":"20230806102418F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Twenty One Thousand Seven Hundred Eighty Rupees Only"
+            },
+            {
+                "amt_in_figures": "21780"
+            },
+            {
+                "payee_name": "Yashoda Nakarmi"
+            },
+            {
+                "bank_name": "Everest Bank Limited"
+            },
+            {
+                "cheque_date": "19/04/80"
+            },
+            {
+                "micra" : "005183922?'1001'"
+            },
+            {
+                "acc_info" : "00300105201111 Bishudevi Printing And Packaging NPR- Current A/C Corporate"
+            }
+        ]
+    }
+}

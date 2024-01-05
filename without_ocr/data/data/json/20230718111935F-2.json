@@ -1,0 +1,28 @@
+{
+    "file_name" :"20230718111935F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Two Lakhs"
+            },
+            {
+                "amt_in_figures": "200000"
+            },
+            {
+                "payee_name": "Lifecare Distributions PVT. LTD."
+            },
+            {
+                "bank_name": "Sunrise Bank Limited"
+            },
+            {
+                "cheque_date": "02/04/80"
+            },
+            {
+                "micra" : "0018883325'2201"
+            },
+            {
+                "acc_info" : "1320756953701001 Samita Store And Suppliers Current Account NPR Dhapasi Counter"
+            }
+        ]
+    }
+}

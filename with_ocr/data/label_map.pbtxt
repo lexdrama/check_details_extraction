@@ -1,0 +1,32 @@
+item {
+      id: 1
+      name: 'date'
+}
+item {
+     id: 2
+     name: 'amount'
+}
+item {
+     id: 3
+     name: 'acc_info'
+}
+item {
+     id: 4
+     name: 'micra'
+}
+item {
+     id: 5
+     name: 'bank_name'
+}
+item {
+     id: 6
+     name: 'sign'
+}
+item {
+     id: 7
+     name: 'amount_words'
+}
+item {
+     id: 8
+     name: 'pay_to'
+}

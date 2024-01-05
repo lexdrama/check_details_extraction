@@ -1,0 +1,28 @@
+{
+    "file_name" :"20230803105601F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "One Lakh Five Thousand Rupee Only"
+            },
+            {
+                "amt_in_figures": "105000"
+            },
+            {
+                "payee_name": "Jay Ganga & Sons"
+            },
+            {
+                "bank_name": "Prabhu Bank"
+            },
+            {
+                "cheque_date": "18/04/80"
+            },
+            {
+                "micra" : "0040291414'2601"
+            },
+            {
+                "acc_info" : "0870083327800012 Keren Power Enterprises NPR 40291414"
+            }
+        ]
+    }
+}

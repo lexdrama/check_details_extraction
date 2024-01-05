@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230806095223F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Nine Lakhs Seventy Thousands One hundred five only"
+            },
+            {
+                "amt_in_figures": "970105"
+            },
+            {
+                "payee_name": "Daunne Flour Mills Pvt. ltd."
+            },
+            {
+                "bank_name": "Global IME Bank"
+            },
+            {
+                "cheque_date": "29/04/80"
+            },
+            {
+                "micra" : "0063917233'1901'"
+            },
+            {
+                "acc_info" : "01901010012522 New Kumar Enterprises NPR"
+            }
+        ]
+    }
+}

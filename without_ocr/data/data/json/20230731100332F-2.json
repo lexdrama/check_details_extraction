@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230731100332F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Three Lakh Only"
+            },
+            {
+                "amt_in_figures": "300000"
+            },
+            {
+                "payee_name": "Laxman Yadav"
+            },
+            {
+                "bank_name": "Nepal SBI Bank"
+            },
+            {
+                "cheque_date": "30/07/23"
+            },
+            {
+                "micra" : "0032221036'0801"
+            },
+            {
+                "acc_info" : "NarayanGarh Branch A/C. 19425240200586NPR  /CAA LIFR Insaurance Corporation(nepal.) LTD"
+            }
+        ]
+    }
+}

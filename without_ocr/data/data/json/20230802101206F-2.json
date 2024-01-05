@@ -1,0 +1,28 @@
+{
+    "file_name" : "20230802101206F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "Fifteen Lacs Sixty - Five Thousand Only"
+            },
+            {
+                "amt_in_figures": "1565000"
+            },
+            {
+                "payee_name": "Rahul Kumar Singh"
+            },
+            {
+                "bank_name": "Prime Bank LTD."
+            },
+            {
+                "cheque_date": "16/04/80"
+            },
+            {
+                "micra" : "0017160593'2101'"
+            },
+            {
+                "acc_info" : "0030010BC6 Sumit Poudyal Prime Sarba Sulabh Bachat Khata NPR 0017160593"
+            }
+        ]
+    }
+}

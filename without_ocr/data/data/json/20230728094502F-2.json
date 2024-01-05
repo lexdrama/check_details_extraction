@@ -1,0 +1,28 @@
+{
+    "file_name": "20230728094502F-2.JPG",
+    "gt_parse": {
+        "cheque_details": [
+            {
+                "amt_in_words": "One Lakh Twenty Three Thousand Three Hundred One"
+            },
+            {
+                "amt_in_figures": "123391"
+            },
+            {
+                "payee_name": "First Step Distributers PVT. LTD."
+            },
+            {
+                "bank_name": "Standard Chartered"
+            },
+            {
+                "cheque_date": "27/07/23"
+            },
+            {
+                "micra" : "0013049819'0601'0018'000000001206253401"
+            },
+            {
+                "acc_info" : "NPR 01-2062534-01 Janki Impex"
+            }
+        ]
+    }
+}
