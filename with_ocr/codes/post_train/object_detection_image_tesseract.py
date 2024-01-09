@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import tensorflow as tf
-import easyocr
+import pytesseract
 
 # Load the pre-trained model
 model_path = 'E:/Projects/Object_detection/check_ocr/results/model/saved_model'
@@ -21,14 +21,14 @@ def perform_object_detection(image):
 # Load an image for object detection
 expected_size = (512,512)
 threshold = .3
-image_path = '5.JPG'
+image_path = '8.JPG'
 image = cv2.imread(image_path)
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 dim = image_rgb.shape[0:2]
 image_np = cv2.resize(image_rgb, expected_size)
 
-# Initialize EasyOCR
-reader = easyocr.Reader(['en'])
+# Set the path to the Tesseract executable
+pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\raheel.Zuberi\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
 
 # Perform object detection
 detections = perform_object_detection(image_np)
@@ -63,18 +63,12 @@ for variables in dets :
 
     # Extract the ROI for OCR
     roi = image[pt1[1]:pt2[1], pt1[0]:pt2[0]]
-    
-    digit_list = [1,2,4]  # this list includes date, amount and micra
 
-    # Perform OCR using EasyOCR
-    # result = reader.readtext(roi)
-    if cls in digit_list:
-        result = reader.readtext(roi, allowlist ='0123456789', paragraph=True)
-    else:
-        result= reader.readtext(roi, paragraph=True)
+    # Perform OCR using pytesseract
+    result = pytesseract.image_to_string(roi)
 
-    # Extract text from EasyOCR result
-    text = result[0][1] if result else ""
+    # Extract text from pytesseract result
+    text = result if result else ""
     
     # Draw the bounding box
     cv2.rectangle(image, pt1, pt2, (0, 255,0), 1)
