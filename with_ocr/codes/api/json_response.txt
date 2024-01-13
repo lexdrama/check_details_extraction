@@ -1,0 +1,23 @@
+{
+	"metadata":
+		{
+		image_path:""
+		process_time:""
+		}
+	"results":
+		{
+		class1:
+			{
+			bounding_box:
+					{
+					min:(),
+					max:()
+					}
+			score:
+			text:
+				
+			}
+		}
+	
+	
+}

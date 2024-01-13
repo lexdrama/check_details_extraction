@@ -1,0 +1,4 @@
+chromadb_client==0.4.15.dev0
+fastapi
+openai
+uvicorn
