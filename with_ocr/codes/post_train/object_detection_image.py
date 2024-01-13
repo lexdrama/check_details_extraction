@@ -4,7 +4,7 @@ import tensorflow as tf
 import easyocr
 
 # Load the pre-trained model
-model_path = 'E:/Projects/Object_detection/check_ocr/results/model/saved_model'
+model_path = 'with_ocr/results/model/saved_model'
 model = tf.saved_model.load(model_path)
 
 # Create a function to perform object detection
@@ -21,7 +21,7 @@ def perform_object_detection(image):
 # Load an image for object detection
 expected_size = (512,512)
 threshold = .3
-image_path = '5.JPG'
+image_path = 'with_ocr/codes/post_train/3.JPG'
 image = cv2.imread(image_path)
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 dim = image_rgb.shape[0:2]
@@ -81,7 +81,7 @@ for variables in dets :
     #cv2.rectangle(image, (xmin, ymin), (xmax, ymax), (0, 255, 0), 2)
 
     # Display the OCR result
-    cv2.putText(image, text, (pt1[0], pt1[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+    cv2.putText(image, text, (pt1[0], pt1[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
 cv2.imshow('Object Detection', image)
 cv2.waitKey(0)

@@ -4,7 +4,7 @@ import tensorflow as tf
 import pytesseract
 
 # Load the pre-trained model
-model_path = 'E:/Projects/Object_detection/check_ocr/results/model/saved_model'
+model_path = 'with_ocr/results/model/saved_model'
 model = tf.saved_model.load(model_path)
 
 # Create a function to perform object detection
@@ -21,14 +21,14 @@ def perform_object_detection(image):
 # Load an image for object detection
 expected_size = (512,512)
 threshold = .3
-image_path = '8.JPG'
+image_path = 'with_ocr/codes/post_train/1.JPG'
 image = cv2.imread(image_path)
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 dim = image_rgb.shape[0:2]
 image_np = cv2.resize(image_rgb, expected_size)
 
 # Set the path to the Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\raheel.Zuberi\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
 # Perform object detection
 detections = perform_object_detection(image_np)
@@ -75,7 +75,7 @@ for variables in dets :
     #cv2.rectangle(image, (xmin, ymin), (xmax, ymax), (0, 255, 0), 2)
 
     # Display the OCR result
-    cv2.putText(image, text, (pt1[0], pt1[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+    cv2.putText(image, text, (pt1[0], pt1[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
 cv2.imshow('Object Detection', image)
 cv2.waitKey(0)
